@@ -13,7 +13,7 @@ luxurious_lamp_description = "Luxurious Lamp. Glass and iron. 36 inches tall. Br
 
 luxurious_lamp_price = 52.15
 
-#In order to be a business, we should also be calculating sales tax. #Let’s store that in a variable as well.
+#In order to be a business, we should also be calculating sales tax. Let’s store that in a variable as well.
 #100% is 1 and 8.8%. is .088
 sales_tax = .088
 
