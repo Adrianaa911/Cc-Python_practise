@@ -1,9 +1,9 @@
-
 #import random to generate the random number
+
 import random
 
 #assign the variable we need
-name = "Adrianaa"
+name = "Adriana"
 question = "Will I win the lottery?"
 answer = ""
 
