@@ -42,6 +42,7 @@ elif random_number == 12:
 else:
   answer = "Error"
 
+#if name is empty or question
 if name == " ":
   print(question)
 else:
