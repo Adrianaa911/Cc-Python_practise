@@ -1,1 +1,12 @@
 
+weight = 12
+
+#Ground shipping
+
+if weight <=5 :
+  print("The cost for this package is £5.5.")
+elif weight <=10:
+   print("The cost for this package is £11.5.")
+else:
+   print("The cost for this package is £15.5.")
+
