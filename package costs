@@ -1,33 +1,39 @@
+# Sal's Shipping
+# Sonny Li
 
+weight = 80
+
+# Ground Shipping 🚚
 #A package that weighs 8.4 pounds should cost $53.60 to ship with normal ground shipping: 8.4 lb×$4.00+$20.00=$53.60
-#A package that weighs 1.5 pounds should cost $6.75 to ship by drone: 1.5lbx$4.5+0.00=$6.75
 
-weight = 12
-
-#Ground shipping
-if weight <=5 :
-  print("The cost for this package is £5.5.")
-elif weight <=10:
-   print("The cost for this package is £11.5.")
+if weight <= 2:
+  cost_ground = weight * 1.5 + 20
+elif weight <= 6:
+  cost_ground = weight * 3.00 + 20
+elif weight <= 10:
+  cost_ground = weight * 4.00 + 20
 else:
-   print("The cost for this package is £15.5.")
+  cost_ground = weight * 4.75 + 20
 
-
-#A package that weighs 8.4 pounds should cost $53.60 to ship with normal ground shipping: 8.4 lb×$4.00+$20.00=$53.60
-cost_ground = 8.4 * 4 + 20
-print(cost_ground)
+print("Ground Shipping $", cost_ground)
+      
+# Ground Shipping Premimum 🚚💨
 
 cost_ground_premium = 125.00
-print(cost_ground_premium)
 
-#Drone Shipping
+print("Ground Shipping Premimium $", cost_ground_premium)
 
-drone = 1.5
-drone_shipping = 1.5 * 4.5 + 0
-print(drone_shipping)
-if drone <= weight:
-  print("Drone shipping cost for this package is £6.75.")
-elif drone >= weight:
-  print("The drone shipping cost for this package is 15.50")
+# Drone Shipping 🛸
+#A package that weighs 1.5 pounds should cost $6.75 to ship by drone: 1.5lbx$4.5+0.00=$6.75
+
+
+if weight <= 2:
+  cost_drone = weight * 4.5
+elif weight <= 6:
+  cost_drone = weight * 9.00
+elif weight <= 10:
+  cost_drone = weight * 12.00
 else:
-  print("The cost for this drone package is 17.00.")
+  cost_drone = weight * 14.25
+
+print("Drone Shipping: $", cost_drone)
