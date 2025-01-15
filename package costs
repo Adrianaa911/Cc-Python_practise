@@ -17,4 +17,12 @@ cost_ground_premium = 125.00
 print(cost_ground_premium)
 
 #Drone Shipping
-if 
+drone = 1.5
+drone_shipping = 1.5 * 4.5 + 0
+print(drone_shipping)
+if drone <= weight:
+  print("Drone shipping cost for this package is £6.75.")
+elif drone >= weight:
+  print("The drone shipping cost for this package is 15.50")
+else:
+  print("The cost for this drone package is 17.00.")
