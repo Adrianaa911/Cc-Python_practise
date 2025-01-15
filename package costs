@@ -1,3 +1,7 @@
+
+#A package that weighs 8.4 pounds should cost $53.60 to ship with normal ground shipping: 8.4 lb×$4.00+$20.00=$53.60
+#A package that weighs 1.5 pounds should cost $6.75 to ship by drone: 1.5lbx$4.5+0.00=$6.75
+
 weight = 12
 
 #Ground shipping
@@ -17,7 +21,7 @@ cost_ground_premium = 125.00
 print(cost_ground_premium)
 
 #Drone Shipping
-#A package that weighs 1.5 pounds should cost $6.75 to ship by drone: 1.5lbx$4.5+0.00=$6.75
+
 drone = 1.5
 drone_shipping = 1.5 * 4.5 + 0
 print(drone_shipping)
