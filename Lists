@@ -1,4 +1,4 @@
-#Add, modify or remove an item from a list
+#Add,accesing, modify or remove an item from a list
 
 #Accessing list elements
 employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
