@@ -100,5 +100,20 @@ Print the variable ellies_score to see the result.
 ellies_score = class_name_test[-1][-1]
 print(ellies_score)
 
+#Modifying 2D Lists
+
+class_name_hobbies = [["Jenny", "Breakdancing"], ["Alexus", "Photography"], ["Grace", "Soccer"]]
+
+#"Jenny" changed their mind and is now more interested in "Meditation".
+We will need to modify the list to accommodate the change to our class_name_hobbies list. 
+To change a value in a two-dimensional list, reassign the value using the specific index.
+The list of Jenny is at index 0. The hobby is at index 1. 
+
+class_name_hobbies[0][1] = "Meditation"
+print(class_name_hobbies)
+#Would output:
+[["Jenny", "Meditation"], ["Alexus", "Photography"], ["Grace", "Soccer"]]
+
+
 
 
