@@ -1,5 +1,13 @@
 #Add, modify or remove an item from a list
 
+#Accessing List Elements: Negative Index
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+last_element = shopping_list[-1]
+index5_element = shopping_list[5]
+print(index5_element, last_element)
+
+
+
 #modify method
 # Your code below:
 garden_waitlist = ["Jiho", "Adam", "Sonny", "Alisha"]
