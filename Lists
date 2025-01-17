@@ -1,5 +1,13 @@
 #Add, modify or remove an item from a list
 
+#Accessing list elements
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
+employee_four = employees[3]
+print(employees[4])
+
+print(employees[2])
+
+
 #Accessing List Elements: Negative Index
 shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
 last_element = shopping_list[-1]
