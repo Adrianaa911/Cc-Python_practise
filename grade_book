@@ -62,3 +62,40 @@ One Big Gradebook!
 10.You also have your grades from last semester, stored in last_semester_gradebook.
 Create a new variable full_gradebook that combines both last_semester_gradebook and gradebook using + to have one complete grade book.
 Print full_gradebook to see our completed list.
+
+#CODE
+last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
+
+# Your code below: 
+#1
+subjects = ["physics", "calculus", "poetry", "history"]
+#2
+grades = [98, 97, 85, 88]
+
+#3
+gradebook = [["physics", 98], ["calculus", 97], ["poetry", 85], ["history", 88]]
+print(gradebook)
+
+gradebook.append(["computer science", 100])
+print(gradebook)
+
+gradebook.append(["visual arts", 93])
+print(gradebook)
+
+gradebook[-1][-1] = 98
+print(gradebook)
+
+#8
+#remove an item from a 2d list
+gradebook[2].remove
+print(gradebook)
+
+#9
+#append the grade 85 with "Pass"
+gradebook[2][1] = "Pass"
+print(gradebook)
+
+#10
+full_gradebook = last_semester_gradebook + gradebook
+print(full_gradebook)
+
