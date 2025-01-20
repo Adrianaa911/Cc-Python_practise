@@ -26,3 +26,30 @@ print(front_display_list)
 
 front_display_list.insert(0, "Pineapple")
 print(front_display_list)
+
+-- Removing by Index: Pop
+ Python gives us a method to remove elements at a specific index using a method called .pop().
+
+The .pop() method takes an optional single input: the index for the element you want to remove.
+
+cs_topics = ["Python", "Data Structures", "Balloon Making", "Algorithms", "Clowns 101"]
+
+#First let’s remove "Clowns 101"
+
+removed_element = cs_topics.pop()
+print(cs_topics)
+print(removed_element)
+
+#Lastly let’s remove "Balloon Making"
+cs_topics.pop(2)
+print(cs_topics)
+
+Tasks:
+data_science_topics = ["Machine Learning", "SQL", "Pandas", "Algorithms", "Statistics", "Python 3"]
+print(data_science_topics)
+
+1.Let’s remove the last item from the list of data_science_topics using our newly learned .pop() method.
+
+data_science_topics.pop()
+print(data_science_topics)
+
