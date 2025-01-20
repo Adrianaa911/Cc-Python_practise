@@ -87,6 +87,12 @@ Tasks:
 
 number_list = range(9)
 print(list(number_list))
-
 [0, 1, 2, 3, 4, 5, 6, 7, 8]  #output
+
+2. Create a range called zero_to_seven with the numbers 0 through 7.
+Print the result in list form.
+
+zero_to_seven = range(8)
+print(list(zero_to_seven))
+[0, 1, 2, 3, 4, 5, 6, 7]   #output
 
