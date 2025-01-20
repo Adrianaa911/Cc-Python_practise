@@ -4,3 +4,12 @@
 *Select portions of a list (called slicing).
 *Count the number of times that an element appears in a list.
 *Sort a list of items.
+
+
+-- Adding by Index: Insert
+The Python list method .insert() allows us to add an element to a specific index in a list.
+
+The .insert() method takes in two inputs:
+1.The index you want to insert into.
+2.The element you want to insert at the specified index.
+The .insert() method will handle shifting over elements and can be used with negative indices.
