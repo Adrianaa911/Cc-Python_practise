@@ -53,3 +53,9 @@ print(data_science_topics)
 data_science_topics.pop()
 print(data_science_topics)
 
+2. Looks like there is overlap on the "Algorithms" topic as well. Let’s use .pop() to remove it as well.
+Print data_science_topics to see the changes.
+
+data_science_topics.pop(-2)
+print(data_science_topics)
+
