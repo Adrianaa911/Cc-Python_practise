@@ -82,5 +82,11 @@ print(list(my_range))
 Would output:
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+Tasks:
+1. Modify number_list so that it is a range containing numbers starting at 0 and up to, but not including, 9.
 
+number_list = range(9)
+print(list(number_list))
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8]  #output
 
