@@ -96,3 +96,14 @@ zero_to_seven = range(8)
 print(list(zero_to_seven))
 [0, 1, 2, 3, 4, 5, 6, 7]   #output
 
+-- The Power of Range!
+
+By default,range() creates a list starting at 0. However, if we call range() with two inputs, we can create a list that starts at a different number.
+
+For example, range(2, 9) would generate numbers starting at 2 and ending at 8 (just before 9):
+
+my_list = range(2, 9)
+print(list(my_list))
+[2, 3, 4, 5, 6, 7, 8]
+
+
