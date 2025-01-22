@@ -160,3 +160,8 @@ big_range_length = len(big_range)
 
 4.Use print() to examine big_range_length.
 print(big_range_length)
+
+
+-- Slicing Lists 
+
+letters = ["a", "b", "c", "d", "e", "f", "g"]
