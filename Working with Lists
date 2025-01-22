@@ -162,7 +162,7 @@ big_range_length = len(big_range)
 print(big_range_length)
 
 
--- Slicing Lists 
+-- Slicing Lists I
 
 letters = ["a", "b", "c", "d", "e", "f", "g"]
 
@@ -173,3 +173,5 @@ We can do this using the following syntax: letters[start:end], where:
 
 sliced_list = letters[1:6]
 print(sliced_list)
+
+-- Slicing Lists II
