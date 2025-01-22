@@ -175,3 +175,34 @@ sliced_list = letters[1:6]
 print(sliced_list)
 
 -- Slicing Lists II
+
+fruits = ["apple", "cherry", "pineapple", "orange", "mango"]
+
+If we want to select the first n elements of a list, we could use the following code:
+
+fruits[:n]
+
+For our fruits list, suppose we wanted to slice the first three elements.
+The following code would start slicing from index 0 and up to index 3. Note that the fruit at index 3 (orange) is not included in the results.
+
+print(fruits[:3])
+
+We can do something similar when we want to slice the last n elements in a list:
+
+fruits[-n:]
+
+
+For our fruits list, suppose we wanted to slice the last two elements.
+This code slices from the element at index -2 up through the last index.
+
+print(fruits[-2:])
+
+Negative indices can also accomplish taking all but n last elements of a list.
+
+fruits[:-n]
+
+
+For our fruits example, suppose we wanted to slice all but the last element from the list.
+This example starts counting from the 0 index up to the element at index -1.
+
+print(fruits[:-1])
