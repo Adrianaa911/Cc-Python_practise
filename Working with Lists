@@ -233,3 +233,31 @@ num_pairs = number_collection.count([100, 200])
 print(num_pairs)
 
 Would output: 2
+
+
+-- Sorting Lists I
+
+Often, we will want to sort a list in either numerical (1, 2, 3, …) or alphabetical (a, b, c, …) order.
+We can sort a list using the method .sort()
+Suppose that we have a list of names:
+
+names = ["Xander", "Buffy", "Angel", "Willow", "Giles"]
+
+Let’s see what happens when we apply .sort():
+
+names.sort()
+print(names)
+
+
+Would output: ['Angel', 'Buffy', 'Giles', 'Willow', 'Xander']
+
+
+As we can see, the .sort() method sorted our list of names in alphabetical order.
+
+.sort() also provides us the option to go in reverse. Instead of sorting in ascending order like we just saw, we can do so in descending order.
+
+names.sort(reverse=True)
+print(names)
+
+
+Would output: ['Xander', 'Willow', 'Giles', 'Buffy', 'Angel']
