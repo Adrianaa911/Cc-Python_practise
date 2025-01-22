@@ -165,3 +165,11 @@ print(big_range_length)
 -- Slicing Lists 
 
 letters = ["a", "b", "c", "d", "e", "f", "g"]
+
+Suppose we want to select from "b" through "f".
+We can do this using the following syntax: letters[start:end], where:
+- start is the index of the first element that we want to include in our selection. In this case, we want to start at "b", which has index 1.
+- end is the index of one more than the last index that we want to include. The last element we want is "f", which has index 5, so end needs to be 6.
+
+sliced_list = letters[1:6]
+print(sliced_list)
