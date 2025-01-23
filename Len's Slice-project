@@ -31,3 +31,10 @@ Count the number of occurrences of 2 in the prices list, and store the result in
 
 num_two_dollar_slices = prices.count(2)
 print(num_two_dollar_slices)
+
+4.Find the length of the toppings list and store it in a variable called num_pizzas.
+num_pizzas = len(toppings)
+print(num_pizzas)
+
+5.Print the string We sell [num_pizzas] different kinds of pizza!, where [num_pizzas] represents the value of our variable num_pizzas.
+print(f"We sell {num_pizzas} different kind of pizza!")
