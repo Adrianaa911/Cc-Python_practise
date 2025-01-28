@@ -13,3 +13,14 @@ for item in sport_games:
   print(item)
 
 -- For Loops: Using Range
+
+for temp in range(6):
+  print("Learning Loops!")   
+#output:
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+Learning Loops!
+
