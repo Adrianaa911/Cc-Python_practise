@@ -36,4 +36,12 @@ Loop is on iteration number 4
 Loop is on iteration number 5
 Loop is on iteration number 6
 
+Task:
+1.Use the range() function in a for loop to print() out the provided promise variable five times.
+
+promise = "I will finish the python loops module!"
+
+for item in range(5):
+  print(promise)
+
 
