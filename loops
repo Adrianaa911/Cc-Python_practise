@@ -9,3 +9,5 @@ Taks:
 Write a for loop that prints each sport in the list sport_games.
 
 sport_games = ["football", "hockey", "baseball", "cricket"]
+for item in sport_games:
+  print(item)
