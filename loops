@@ -24,3 +24,16 @@ Learning Loops!
 Learning Loops!
 Learning Loops!
 
+for temp in range(6):
+  print("Loop is on iteration number " + str(temp + 1))
+
+#Would output:
+
+Loop is on iteration number 1
+Loop is on iteration number 2
+Loop is on iteration number 3
+Loop is on iteration number 4
+Loop is on iteration number 5
+Loop is on iteration number 6
+
+
