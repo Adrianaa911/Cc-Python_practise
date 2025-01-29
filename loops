@@ -67,3 +67,11 @@ The output would be:
 1
 2
 3
+
+*Elegant loops:
+Similar to for loops, Python allows us to write elegant one-line while loops. Here is our previous example in a single line:
+
+count = 0
+while count <= 3: print(count); count += 1
+
+Note: Here we separate each statement with a ; to denote a separate line of code.
