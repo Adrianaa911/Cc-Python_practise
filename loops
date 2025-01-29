@@ -100,3 +100,25 @@ while countdown >= 0:
   countdown -= 1
   #print("-----")
 print("We have liftoff!")
+
+
+-- While Loops: Lists
+
+ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
+
+length = len(ingredients)
+index = 0
+
+while index < length:
+  print(ingredients[index])
+  index += 1
+
+# Length will be 5 in this case
+length = len(ingredients)
+
+#Our final output would be:
+milk
+sugar
+vanilla extract
+dough
+chocolate
