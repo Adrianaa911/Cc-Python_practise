@@ -98,5 +98,5 @@ print("Starting counting down")
 while countdown >= 0:
   print(countdown)
   countdown -= 1
-  print("-----")
+  #print("-----")
 print("We have liftoff!")
