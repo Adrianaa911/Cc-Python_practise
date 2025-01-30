@@ -122,3 +122,16 @@ sugar
 vanilla extract
 dough
 chocolate
+
+-- Infinite Loops
+We’ve iterated through lists that have a discrete beginning and end. However, let’s consider this example:
+
+my_favorite_numbers = [4, 8, 15, 16, 42]
+
+for number in my_favorite_numbers:
+  my_favorite_numbers.append(1)
+
+
+Take some time to ponder what happens with this code.
+Click to see what would happen!
+A loop that never terminates is called an infinite loop. These are very dangerous for our code because they will make our program run forever and thus consume all of your computer’s resources.
