@@ -145,3 +145,16 @@ no_if   = [num * 2 for num in numbers]
 if_only = [num * 2 for num in numbers if num < 0]
 if_else = [num * 2 if num < 0 else num * 3 for num in numbers]
 
+Tasks:
+1.We have defined a list heights of visitors to a theme park. In order to ride the Topsy Turvy Tumbletron roller coaster, you need to be above 161 centimeters.
+
+Using a list comprehension, create a new list called can_ride_coaster that has every element from heights that is greater than 161.
+
+Checkpoint 2 Passed
+2.
+Print can_ride_coaster.
+
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+
+can_ride_coaster = [height for height in heights if height > 161 ]
+print(can_ride_coaster)
