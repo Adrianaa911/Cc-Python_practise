@@ -1,1 +1,4 @@
-
+Loop Control: Continue
+7 min
+While the break control statement will come in handy, there are other situations where we don’t want to end the loop entirely. 
+What if we only want to skip the current iteration of the loop?
