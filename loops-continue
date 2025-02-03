@@ -10,3 +10,47 @@ for age in ages:
   if age < 21:
     continue
   print(age) 
+
+-- Nested Loops
+12 min
+Preview: Docs Loading link description
+Loops
+ can be nested in Python, as they can with other programming languages. We will find certain situations that require nested loops.
+
+Suppose we are in charge of a science class, that is split into three project teams:
+
+project_teams = [["Ava", "Samantha", "James"], ["Lucille", "Zed"], ["Edgar", "Gabriel"]]
+
+
+Using a for or while loop can be useful here to get each team:
+
+for team in project_teams:
+  print(team)
+
+
+Would output:
+
+["Ava", "Samantha", "James"]
+["Lucille", "Zed"]
+["Edgar", "Gabriel"]
+
+
+But what if we wanted to print each individual student? In this case, we would actually need to nest our loops to be able to loop through each sub-list. Here is what it would look like:
+
+# Loop through each sublist
+for team in project_teams:
+  # Loop elements in each sublist
+  for student in team:
+    print(student)
+
+
+This would output:
+
+Ava
+Samantha
+James
+Lucille
+Zed
+Edgar
+Gabriel
+
