@@ -54,3 +54,32 @@ Zed
 Edgar
 Gabriel
 
+-- Loops
+List Comprehensions: Introduction
+8 min
+So far we have seen many of the ideas about using loops in our code. Python prides itself on allowing programmers to write clean and elegant code. We have already seen this with Python giving us the ability to write while and for loops in a single line.
+
+In this exercise, we are going to examine another way we can write elegant loops in our programs using list comprehensions.
+
+To start, let’s say we had a list of integers and wanted to create a list where each element is doubled. We could accomplish this using a for loop and a new list called doubled:
+
+numbers = [2, -1, 79, 33, -45]
+doubled = []
+
+for number in numbers:
+  doubled.append(number * 2)
+
+print(doubled)
+
+
+Would output:
+
+[4, -2, 158, 66, -90]
+
+Let’s see how we can use the power of list comprehensions to solve these types of problems in one line. Here is our same problem but now written as a list comprehension:
+
+numbers = [2, -1, 79, 33, -45]
+doubled = [num * 2 for num in numbers]
+print(doubled)
+
+
