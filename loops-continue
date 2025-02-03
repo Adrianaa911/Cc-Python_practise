@@ -83,3 +83,18 @@ doubled = [num * 2 for num in numbers]
 print(doubled)
 
 
+#Tasks:
+1.
+We have been provided a list of grades in a physics class. Using a list comprehension, create a new list called scaled_grades that scales the class grades based on the highest score.
+
+Since the highest score was a 90 we simply want to add 10 points to all the grades in the list.
+
+Checkpoint 2 Passed
+2.
+Print scaled_grades.
+
+grades = [90, 88, 62, 76, 74, 89, 48, 57]
+scaled_grades = [grade + 10 for grade in grades]
+
+print(scaled_grades)
+
