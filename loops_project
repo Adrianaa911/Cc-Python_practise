@@ -5,6 +5,7 @@ hairstyles = ["bouffant", "pixie", "dreadlocks", "crew", "bowl", "bob", "mohawk"
 prices = [30, 25, 40, 20, 20, 35, 50, 35]
 
 last_week = [2, 3, 5, 8, 4, 4, 6, 2]
+
 #1
 total_price = 0
 #2
@@ -21,5 +22,24 @@ print(new_prices)
 
 #7
 total_revenue = 0 
+#8 & 9
+for i in range(len(hairstyles)):
+  total_revenue += prices[1] * last_week[1]
+  #10
+print("Total Revenue: ${0}" .format(total_revenue))
 
+#11 
+average_daily_revenue = total_revenue / 7
+print("Average Daily Revenue: ${0}" .format(average_daily_revenue))
+
+#12
+cuts_under_30 = [
+  #expression
+  hairstyles[i]
+  #statement
+  for i in range(len(hairstyles))
+  #condition
+  if new_prices[i] < 30
+]
+print(cuts_under_30)
 
