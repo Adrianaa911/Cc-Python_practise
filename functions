@@ -21,3 +21,13 @@ Here is an example of a function that greets a user for our trip planning applic
 def trip_welcome():
   print("Welcome to Tripcademy!") 
   print("Let's get you to your destination.")
+
+--calling a function
+Now that we’ve practiced defining a function, let’s learn about calling a function to execute the code within its body.
+
+def directions_to_timesSq():
+  print("Walk 4 mins to 34th St Herald Square train station.")
+  print("Take the Northbound N, Q, R, or W train 1 stop.")
+  print("Get off the Times Square 42nd Street stop.")
+
+directions_to_timesSq()
