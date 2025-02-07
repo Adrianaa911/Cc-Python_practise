@@ -8,7 +8,6 @@ def function_name():
   # functions tasks go here
 
 There are some key components we want to note here:
-
 The def keyword indicates the beginning of a function (also known as a function header). The function header is followed by a name in snake_case format that describes the task the function performs. 
 It’s best practice to give your functions a descriptive yet concise name.
 Following the function name is a pair of parenthesis ( ) that can hold input values known as parameters (more on parameters later in the lesson!). In this example function, we have no parameters.
