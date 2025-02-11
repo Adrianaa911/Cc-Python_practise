@@ -326,3 +326,17 @@ Give the final_destination parameter a default value of "Codecademy HQ".
 
 def trip_planner(first_destination, second_destination, final_destination = "Codecademy HQ")
     print("Here is what your trip will look like!)
+
+3. In our function definition let’s provide an itinerary that will describe the destinations our user will visit in order. Print a statement that follows this form:
+First, we will stop in <first_destination>, then <second_destination>, and lastly <final_destination>
+An example call to our function using positional arguments:
+trip_planner("London", "India", "New Zealand")
+Should output:
+
+Here is what your trip will look like!
+First, we will stop in London, then India, and lastly New Zealand
+
+To test out your function, call trip_planner() with the following values for the parameters:
+first_destination: "France"
+second_destination: "Germany"
+final_destination: "Denmark"
