@@ -340,3 +340,11 @@ To test out your function, call trip_planner() with the following values for the
 first_destination: "France"
 second_destination: "Germany"
 final_destination: "Denmark"
+
+
+def trip_planner(first_destination, second_destination, final_destination="Codecademy HQ"):
+  print("Here is what your trip will look like!")
+print("First, we will stop in" + first_destination, "then" + second_destination , "lastly" + final_destination)
+
+trip_planner("London", "India", "New Zealand")
+trip_planner("France", "Germany", "Denmark")
