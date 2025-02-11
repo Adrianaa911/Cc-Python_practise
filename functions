@@ -317,3 +317,12 @@ calculate_taxi_price(10, 0.5)
 
 # Overwriting the default value of 10 with 20
 calculate_taxi_price(10, 0.5, 20)
+
+tasks:
+1.Tripcademy (our trusty travel app) needs to allow passengers to plan a trip (duh).
+Write a function called trip_planner() that will have three parameters: first_destination, second_destination and final_destination.
+Give the final_destination parameter a default value of "Codecademy HQ".
+2.First, we want to introduce the trip to users. Use print() in our function to output Here is what your trip will look like!.
+
+def trip_planner(first_destination, second_destination, final_destination = "Codecademy HQ")
+    print("Here is what your trip will look like!)
