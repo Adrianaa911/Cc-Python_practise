@@ -348,3 +348,26 @@ print("First, we will stop in" + first_destination, "then" + second_destination 
 
 trip_planner("London", "India", "New Zealand")
 trip_planner("France", "Germany", "Denmark")
+
+4.Call the function trip_planner() again with the following values for the parameters:
+
+first_destination: "Denmark"
+second_destination: "France"
+final_destination: "Germany"
+Note the difference in your output depending on the position of your arguments.
+
+5.Call the function trip_planner() again but this time include the keyword arguments (e.g. first_destination) and put them in this exact order:
+
+first_destination = "Iceland"
+final_destination = "Germany"
+second_destination = "India"
+
+6.Lastly, go ahead and call the function trip_planner() using only two positional arguments to see the default argument in action:
+
+first_destination: "Brooklyn"
+second_destination: "Queens"
+
+trip_planner("France", "Germany", "Denmark")
+trip_planner("Denmark", "France", "Germany")
+trip_planner(first_destination="Iceland", final_destination="Germany", second_destination="India")
+trip_planner("Brooklyn", "Queens")
