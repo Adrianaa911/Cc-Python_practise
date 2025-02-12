@@ -472,26 +472,19 @@ MODULE REFERENCE
 .....
 
 tasks:
-We were provided a list of prices for some gift shop items:
+1.We were provided a list of prices for some gift shop items:
 
 T-shirt: 9.75
 Shorts: 15.50
 Mug: 5.99
 Poster: 2.00
 Create a variable called max_price and call the built-in function max() with the variables of prices to get the maximum price.
-
 Print max_price.
 
-Checkpoint 2 Passed
-2.
-Using the same set of prices, create a new variable called min_price and use the built-in function min() with the variables of prices to get the minimum price.
-
+2.Using the same set of prices, create a new variable called min_price and use the built-in function min() with the variables of prices to get the minimum price.
 Print min_price.
 
-Checkpoint 3 Passed
-3.
-Use the built-in function round() to round the price of the variable tshirt_price by one decimal place.
-
+3.Use the built-in function round() to round the price of the variable tshirt_price by one decimal place.
 Save the result to a variable called rounded_price and print it.
 
 tshirt_price = 9.75
