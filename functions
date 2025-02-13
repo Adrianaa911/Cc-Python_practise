@@ -552,5 +552,18 @@ Our output would be:
 Looks like you're going to California 
 Your budget for this trip is 1000
 
+Here we are able to access the budget both inside the trip_welcome function as well as our print() statement.
+If a variable lives outside of any function it can be accessed anywhere in the file.
 
-Here we are able to access the budget both inside the trip_welcome function as well as our print() statement. If a variable lives outside of any function it can be accessed anywhere in the file.
+
+favorite_locations = "Paris, Norway, Iceland"
+def print_count_locations():
+ 
+  print("There are 3 locations")
+    
+# This function will print the favorite locations
+def show_favorite_locations():
+  print("Your favorite locations are: " + favorite_locations)
+
+print_count_locations()
+show_favorite_locations()
