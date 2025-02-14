@@ -675,3 +675,14 @@ Add a line in the function top_tourist_locations_italy() that will return the va
 Set the return of the function top_tourist_locations_italy() to be equal to three new variables called most_popular1, most_popular2, and most_popular3 in that exact order.
 
 3.Use three print() statements to output the value of most_popular1, most_popular2, and most_popular3.
+
+def top_tourist_locations_italy():
+  first = "Rome"
+  second = "Venice"
+  third = "Florence"
+  return first, second, third
+
+most_popular1, most_popular2, most_popular3 = top_tourist_locations_italy()
+print(most_popular1)
+print(most_popular2)
+print(most_popular3)
