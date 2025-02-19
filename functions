@@ -158,23 +158,14 @@ Note: Since we did not define any code in our function yet, we will receive an e
 Looks like you are planning a trip to visit <location>
 Where <location> will represent the location parameter.
 
-3.
-generate_trip_instructions() should also let our users know they can reach their location using public transit.
-
+3.generate_trip_instructions() should also let our users know they can reach their location using public transit.
 Let’s have generate_trip_instructions()also print out the following on a new line:
-
 You can use the public subway system to get to <location>
-
-
 Where <location> will represent the location parameter.
 
-Checkpoint 4 Passed
-4.
-Time for some greenery! Let’s see what happens when we call the function and input the argument "Central Park", a backyard wonder in the heart of New York City.
+4.Time for some greenery! Let’s see what happens when we call the function and input the argument "Central Park", a backyard wonder in the heart of New York City.
 
-Checkpoint 5 Passed
-5.
-The day trip is over and we need to get back to the train station to head home. Change the argument to "Grand Central Station" and call the function again.
+5.The day trip is over and we need to get back to the train station to head home. Change the argument to "Grand Central Station" and call the function again.
 What changed in the output?
 
 def generate_trip_instructions(location):
