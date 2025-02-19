@@ -365,13 +365,7 @@ functions
 There is another category called 
 Preview: Docs Loading link description
 Built-in functions
- - functions that come built into Python for us to use. Remember when we were using 
-Preview: Docs Loading link description
-print
- or 
-Preview: Docs Loading link description
-str
-? Both of these functions are built into the language for us, which means we have been using built-in functions all along!
+ - functions that come built into Python for us to use. Remember when we were using print or str? Both of these functions are built into the language for us, which means we have been using built-in functions all along!
 
 There are lots of different built-in functions that we can use in our programs. Take a look at this example of using 
 Preview: Docs Loading link description
