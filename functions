@@ -551,12 +551,9 @@ print_count_locations()
 show_favorite_locations()
 
 -- Returns
-13 min
-At this point, our 
-Preview: Docs Loading link description
-functions
- have been using 
-Preview: Docs Loading link description
+
+At this point, our functions have been using 
+
 print()
  to help us visualize the output in our interpreter. Functions can also return a value to the program so that this value can be modified or used later. We use the Python keyword return to do this.
 
