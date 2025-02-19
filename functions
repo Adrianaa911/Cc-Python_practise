@@ -628,10 +628,7 @@ def threeday_weather_report(weather):
   return first_day, second_day, third_day
 
 
-This function takes in a set of data in the form of a list for the upcoming week’s weather. We can get our returned function values by assigning them to 
-Preview: Docs Loading link description
-variables
- when we call the function:
+This function takes in a set of data in the form of a list for the upcoming week’s weather. We can get our returned function values by assigning them to variables when we call the function:
 
 monday, tuesday, wednesday = threeday_weather_report(weather_data)
 
