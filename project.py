@@ -2,11 +2,10 @@
 You are a physics teacher preparing for the upcoming semester. 
 You want to provide your students with some functions that will help them calculate some fundamental physical properties.
 
-# Uncomment this when you reach the "Use the Force" section
-# train_mass = 22680
-# train_acceleration = 10
-# train_distance = 100
-# bomb_mass = 1
+train_mass = 22680
+train_acceleration = 10
+train_distance = 100
+bomb_mass = 1
 
 
 # Write your code below: 
@@ -24,4 +23,8 @@ def c_to_f(c_temp):
 c0_in_fahrenheit = c_to_f(0)
 print(c0_in_fahrenheit)
 
+def get_force(mass, acceleration):
+  return mass * acceleration
 
+train_force = get_force(train_mass, train_acceleration)
+print(train_force)
