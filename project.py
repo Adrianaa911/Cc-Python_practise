@@ -49,11 +49,12 @@ Work is defined as force multiplied by distance. First, get the force using get_
 
 13.Print the string "The GE train does X Joules of work over Y meters.", with X replaced with train_work and Y replaced with train_distance.
                                    
+Code:
+
 train_mass = 22680
 train_acceleration = 10
 train_distance = 100
 bomb_mass = 1
-
 
 #1
 def f_to_c(f_temp):
