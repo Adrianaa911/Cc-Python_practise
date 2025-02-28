@@ -15,31 +15,20 @@ Temp (C) = (Temp (F) - 32) * 5/9
 2.Let’s test your function with a value of 100 Fahrenheit.
 Define a variable f100_in_celsius and set it equal to the value of f_to_c with 100 as an input.
 
-3.
-Write a function called c_to_f that takes an input c_temp, a temperature in Celsius, and converts it to f_temp, that temperature in Fahrenheit.
-
+3.Write a function called c_to_f that takes an input c_temp, a temperature in Celsius, and converts it to f_temp, that temperature in Fahrenheit.
 It should then return f_temp.
-
 The equation you should use is:
 
 Temp (F) = Temp (C) * (9/5) + 32
 
+4.Let’s test your function with a value of 0 Celsius.
+Define a variable c0_in_fahrenheit and set it equal to the value of c_to_f with 0 as an input. Use the Force
 
-4.
-Let’s test your function with a value of 0 Celsius.
+5.Define a function called get_force that takes in mass and acceleration. It should return mass multiplied by acceleration.
 
-Define a variable c0_in_fahrenheit and set it equal to the value of c_to_f with 0 as an input.
-
-Use the Force
-5.
-Define a function called get_force that takes in mass and acceleration. It should return mass multiplied by acceleration.
-
-6.
-Test get_force by calling it with the variables train_mass and train_acceleration.
-
+6.Test get_force by calling it with the variables train_mass and train_acceleration.
 Save the result to a variable called train_force and print it out.
 
-train_mass and train_acceleration have been defined for you at the top of script.py. Make sure to uncomment those lines before trying to use these variables.
 
 7.
 Print the string “The GE train supplies X Newtons of force.”, with X replaced by train_force.
