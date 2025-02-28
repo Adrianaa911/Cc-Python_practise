@@ -6,19 +6,13 @@ You want to provide your students with some functions that will help them calcul
 13/13 complete
 Mark the tasks as complete by checking them off
 Turn up the Temperature
-1.
-Write a function called f_to_c that takes an input f_temp, a temperature in Fahrenheit, and converts it to c_temp, that temperature in Celsius.
-
+1.Write a function called f_to_c that takes an input f_temp, a temperature in Fahrenheit, and converts it to c_temp, that temperature in Celsius.
 It should then return c_temp.
-
 The equation you should use is:
-
 Temp (C) = (Temp (F) - 32) * 5/9
 
 
-2.
-Let’s test your function with a value of 100 Fahrenheit.
-
+2.Let’s test your function with a value of 100 Fahrenheit.
 Define a variable f100_in_celsius and set it equal to the value of f_to_c with 100 as an input.
 
 3.
