@@ -168,3 +168,35 @@ def more_frequent_item(my_list, item1, item2):
     return item2
 #We use the count() function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. 
 #The item with the most appearances is returned by the function.
+
+-- Double Index
+Our next function will double a value at a given position. We will provide a list and an index to double. This will create a new list by replacing the value at the index provided with double the original value.
+If the index is invalid then we should return the original list. Here is what we need to do:
+1.Define the function to accept two parameters, one for the list and another for the index of the value we are going to double
+2.Test if the index is invalid. If it’s invalid then return the original list
+3.If the index is valid then get all values up to the index and store it as a new list
+4.Append the value at the index times 2 to the new list
+5.Add the rest of the list from the index onto the new list
+6.Return the new list
+
+Create a function named double_index that has two parameters: a list named my_list and a single number named index.
+The function should return a new list where all elements are the same as in my_list except for the element at index. 
+The element at index should be double the value of the element at index of the original my_list.
+If index is not a valid index, the function should return the original list.
+For example, the following code should return [1,2,6,4] because the element at index 2 has been doubled
+
+def double_index(my_list, index):
+  # Checks to see if index is too big
+  if index >= len(my_list):
+    return my_list
+  else:
+    # Gets the original list up to index
+    my_new_list = my_list[0:index]
+ # Adds double the value at index to the new list 
+  my_new_list.append(my_list[index]*2)
+  #  Adds the rest of the original list
+  my_new_list = my_new_list + my_list[index+1:]
+  return my_new_list
+
+Note that this solution is careful not to modify the original input list. If we were to simply use my_list[index] = my_list[index] * 2 then the list that was passed into the function would be modified outside of the function as well. 
+Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.
