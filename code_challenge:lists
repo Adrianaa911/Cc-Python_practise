@@ -200,3 +200,27 @@ def double_index(my_list, index):
 
 Note that this solution is careful not to modify the original input list. If we were to simply use my_list[index] = my_list[index] * 2 then the list that was passed into the function would be modified outside of the function as well. 
 Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.
+
+--  Middle Item
+For the final code challenge, we are going to create a function that finds the middle item from a list of values. This will be different depending on whether there are an odd or even number of values.
+In the case of an odd number of elements, we want this function to return the exact middle value. If there is an even number of elements, it returns the average of the middle two elements. Here is what we need to do:
+
+1.Define the function to accept one parameter for our list of numbers
+2.Determine if the length of the list is even or odd
+3.If the length is even, then return the average of the middle two numbers
+4.If the length is odd, then return the middle number
+
+Create a function called middle_element that has one parameter named my_list.
+If there are an odd number of elements in my_list, the function should return the middle element. If there are an even number of elements, the function should return the average of the middle two elements.
+
+def middle_element(my_list):
+  if len(my_list) % 2 == 0:
+    sum = my_list[int(len(my_list)/2)] + my_list[int(len(my_list)/2) - 1]
+    return sum / 2
+  else:
+    return my_list[int(len(my_list)/2)]
+We used modulus to determine if the list had an even or odd number of elements. After determining this, for an odd number of elements, we calculate the middle index and return the middle element from the list. 
+For an even number of elements, we calculate the index of the element close to the middle and the other element close to the middle (by subtracting 1 from the middle calculation). We get the values at those indices and calculate the average.
+
+Note that the math to find the middle index is a bit tricky. In some cases, when we divide by 2, we would get a double. For example, if our list had 3 items in it, then 3/2 would give us 1.5. 
+The middle index should be 1, so in order to go from 1.5 to 1, we cast 1.5 as an int. In total, this is int(len(my_list)/2).
