@@ -166,3 +166,5 @@ def more_frequent_item(my_list, item1, item2):
     return item1
   else:
     return item2
+#We use the count() function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. 
+#The item with the most appearances is returned by the function.
