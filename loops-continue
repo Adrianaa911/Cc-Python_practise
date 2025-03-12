@@ -12,11 +12,7 @@ for age in ages:
   print(age) 
 
 -- Nested Loops
-12 min
-Preview: Docs Loading link description
-Loops
- can be nested in Python, as they can with other programming languages. We will find certain situations that require nested loops.
-
+Loops can be nested in Python, as they can with other programming languages. We will find certain situations that require nested loops.
 Suppose we are in charge of a science class, that is split into three project teams:
 
 project_teams = [["Ava", "Samantha", "James"], ["Lucille", "Zed"], ["Edgar", "Gabriel"]]
