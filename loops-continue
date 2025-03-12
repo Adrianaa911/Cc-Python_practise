@@ -37,7 +37,6 @@ for team in project_teams:
   for student in team:
     print(student)
 
-
 This would output:
 
 Ava
