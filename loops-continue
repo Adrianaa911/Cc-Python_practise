@@ -137,8 +137,6 @@ Tasks:
 
 Using a list comprehension, create a new list called can_ride_coaster that has every element from heights that is greater than 161.
 
-Checkpoint 2 Passed
-2.
 Print can_ride_coaster.
 
 heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
