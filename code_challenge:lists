@@ -1,4 +1,5 @@
 -- 1. Append Size
+
 For the first code challenge, we are going to calculate the length of an input list and append it to the end of the original list. For example, if we have the input list [23, 42, 108], 
 which is of length 3, the output list should be [23, 42, 108, 3]. Similarly, the output for the input list [1, 23] should be [1, 23, 2].
 
