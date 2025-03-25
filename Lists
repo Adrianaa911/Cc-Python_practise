@@ -16,7 +16,6 @@ print(employees[4])
 
 print(employees[2])
 
-
 #Accessing List Elements: Negative Index
 
 shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
