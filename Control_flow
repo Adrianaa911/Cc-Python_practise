@@ -24,7 +24,6 @@ elif planet == 1.19:
 else:
   print("None are true!")
 
-
 #solution
   if planet == 1:
   weight = weight * 0.91
