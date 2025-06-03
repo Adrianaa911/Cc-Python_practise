@@ -13,8 +13,7 @@ You work at Len’s Slice, a new pizza joint in the neighborhood. You are going 
 
 toppings = ["pepperoni", "pinepple", "cheese", "sausage", "olives", "anchovies", "mushrooms"]
 
-2.
-To keep track of how much each kind of pizza slice costs, create a list called prices that holds the following integer values:
+2.To keep track of how much each kind of pizza slice costs, create a list called prices that holds the following integer values:
 
 2
 6
