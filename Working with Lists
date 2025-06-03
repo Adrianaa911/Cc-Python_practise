@@ -5,7 +5,6 @@
 *Count the number of times that an element appears in a list.
 *Sort a list of items.
 
-
 -- Adding by Index: Insert
 The Python list method .insert() allows us to add an element to a specific index in a list.
 
