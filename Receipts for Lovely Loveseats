@@ -99,7 +99,6 @@ Let’s extend our inventory with another characteristic piece of furniture! Cre
 Stylish Settee. Faux leather on birch. 29.50 inches high x 54.75 inches wide x 28 inches deep. Black.
 
 
-
 Now let’s set the price for our Stylish Settee. Create a variable stylish_settee_price and assign it the value of 180.50.
 
 
