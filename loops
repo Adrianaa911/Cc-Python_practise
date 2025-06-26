@@ -69,6 +69,7 @@ The output would be:
 2
 3
 
+
 *Elegant loops:
 Similar to for loops, Python allows us to write elegant one-line while loops. Here is our previous example in a single line:
 
@@ -149,7 +150,8 @@ for item in items_on_sale:
 
 Once "knit_dress" is found in the list items_on_sale, we don’t need to go through the rest of the items_on_sale list. Unfortunately, our loop will keep running until we reach the end of the list.
 
-Since it’s only 5 elements long, iterating through the entire list is not a big deal in this case but what if items_on_sale had 1000 items? What if it had 100,000 items? This would be a huge waste of time for our program!
+Since it’s only 5 elements long, iterating through the entire list is not a big deal in this case but what if items_on_sale had 1000 items? What if it had 100,000 items? 
+This would be a huge waste of time for our program!
 
 Thankfully you can stop iteration from inside the loop by using break loop control statement.
 
