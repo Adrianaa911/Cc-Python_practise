@@ -1,4 +1,4 @@
---  for Loops
+--  for loops
 
 ingredients = ["milk", "sugar", "vanilla extract", "dough", "chocolate"]
 
@@ -6,6 +6,7 @@ for ingredient in ingredients:
   print(ingredient)
 
 Taks:
+
 Write a for loop that prints each sport in the list sport_games.
 
 sport_games = ["football", "hockey", "baseball", "cricket"]
