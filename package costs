@@ -23,6 +23,7 @@ cost_ground_premium = 125.00
 
 print("Ground Shipping Premimium $", cost_ground_premium)
 
+
 # Drone Shipping 🛸
 #A package that weighs 1.5 pounds should cost $6.75 to ship by drone: 1.5lbx$4.5+0.00=$6.75
 
