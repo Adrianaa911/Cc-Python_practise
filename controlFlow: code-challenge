@@ -95,6 +95,7 @@ print(movie_review(4))
 print(movie_review(6))
 # should print "This one was fun."
 
+
 -- Max Number
 For the final challenge, we are going to select which number from three input values is the greatest using conditional statements. 
 To do this, we need to check the different combinations of values to see which number is greater than the other two.
