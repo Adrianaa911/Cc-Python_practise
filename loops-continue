@@ -49,7 +49,8 @@ Gabriel
 
 -- Loops
 List Comprehensions: Introduction
-So far we have seen many of the ideas about using loops in our code. Python prides itself on allowing programmers to write clean and elegant code. We have already seen this with Python giving us the ability to write while and for loops in a single line.
+So far we have seen many of the ideas about using loops in our code. Python prides itself on allowing programmers to write clean and elegant code. 
+We have already seen this with Python giving us the ability to write while and for loops in a single line.
 In this exercise, we are going to examine another way we can write elegant loops in our programs using list comprehensions.
 To start, let’s say we had a list of integers and wanted to create a list where each element is doubled. We could accomplish this using a for loop and a new list called doubled:
 
