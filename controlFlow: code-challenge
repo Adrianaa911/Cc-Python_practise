@@ -68,7 +68,8 @@ print(always_false(1))
 # should print False
 
 -- Movie Review
-We want to create a function that will help us rate movies. Our function will split the ratings into different ranges and tell the user how the movie was based on the movie’s rating.
+We want to create a function that will help us rate movies.
+Our function will split the ratings into different ranges and tell the user how the movie was based on the movie’s rating.
 Here are the steps needed:
 1.Define our function to accept a single number called rating
 2.If the rating is equal to or less than 5, return "Avoid at all costs!"
