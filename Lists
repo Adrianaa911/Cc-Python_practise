@@ -8,7 +8,6 @@ preferred_size = ["Small", "Large", "Medium"]
 preferred_size.append("Medium")
 print(preferred_size)
 
-
 #Accessing list elements
 
 employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
