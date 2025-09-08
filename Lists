@@ -54,7 +54,6 @@ new_store_order_list.remove("Onions")
 print(new_store_order_list)
 
 
-
 #Two-Dimensional (2D) Lists
 #Previously, we saw that we could create a list representing both Noelle’s name and height:
 
