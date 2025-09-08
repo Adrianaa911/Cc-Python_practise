@@ -8,6 +8,7 @@ preferred_size = ["Small", "Large", "Medium"]
 preferred_size.append("Medium")
 print(preferred_size)
 
+
 #Accessing list elements
 
 employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
@@ -15,6 +16,7 @@ employee_four = employees[3]
 print(employees[4])
 
 print(employees[2])
+
 
 #Accessing List Elements: Negative Index
 
