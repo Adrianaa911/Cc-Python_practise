@@ -123,7 +123,8 @@ print(class_name_hobbies)
 [["Jenny", "Meditation"], ["Alexus", "Photography"], ["Grace", "Soccer"]]
 
 #Tasks:
-1.create a two-dimensional list called incoming_class to represent the data. Each sublist in incoming_class should contain the name, nationality, and grade for a single student.
+1.create a two-dimensional list called incoming_class to represent the data.
+Each sublist in incoming_class should contain the name, nationality, and grade for a single student.
 
 Name	Nationality	Grade Level
 "Kenny"	"American"	9
